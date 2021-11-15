@@ -1,0 +1,78 @@
+.topnav {
+  display: flex;
+  flex-direction: row;
+}
+
+#navLink {
+  background: orange;
+  border: 1pt solid rgb(97, 64, 3);
+  border-radius: 3px;
+  font-size: .90rem;
+  padding: 5px;
+  margin-right: 7px;
+}
+
+.header {
+  grid-area: hd;
+  border-radius: 3px;
+  background: rgb(0, 0, 90);
+  padding: .5rem;
+  margin: 1.5px;
+  margin-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+.content {
+  grid-area: ct;
+  border: none;
+  background: rgb(212, 212, 212);
+  padding: .5rem;
+  margin: 1.5px;
+  margin-bottom: 10px;
+  font-size: .85rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(49, 49, 49);
+  box-shadow: 0 3px 5px 0  rgb(0,0,0, .5);
+}
+
+.footer {
+  grid-area: ft;
+  height: fit-content;
+  border: none;
+  background: rgb(0, 0, 90);
+  padding: .5rem;
+  margin: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 3px 5px 0  rgb(0,0,0, .5);
+  color: white;
+}
+
+.footerBtn {
+  background: rgb(0, 172, 43);
+  border: 1pt solid rgb(0, 87, 33);
+  font-size: .70rem;
+  color: white;
+  padding: .3rem;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px 0  rgb(0,0,0, .5);
+  margin-bottom: 5px;
+}
+
+.footerBtn:hover {
+  background: rgb(0, 107, 27);
+}
+
+#btnLink {
+  color: white;
+}
+
+.link {
+  color: white;
+}
+
+h3 {
+  font-size: 1rem;
+  color: rgb(48, 48, 48);
+  font-family: 'Ubuntu', sans-serif;
+}
